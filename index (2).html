@@ -1,0 +1,2093 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mungai CyberShield | Cyber Hygiene for Kenyan Businesses</title>
+    <meta name="description"
+        content="Close the gaps behind Kenya's most common SME attacks: WhatsApp scams, fake invoices, weak passwords, exposed digital footprints. Phishing defense, MFA setup, password hardening + audits. No jargon, no enterprise overhead.">
+    <meta name="keywords"
+        content="small business cybersecurity Kenya, phishing training Kenya, password security, MFA setup, digital footprint audit, business email compromise Kenya, WhatsApp scam defense, cybersecurity Nairobi, cybersecurity Mombasa, cybersecurity Kisumu, SME cybersecurity Kenya">
+    <meta name="author" content="Mungai">
+    <meta name="robots" content="index, follow">
+    <meta name="theme-color" content="#0a0f1d">
+    <link rel="canonical" href="https://mungaisecurity.com/">
+
+    <!-- Open Graph -->
+    <meta property="og:title" content="Mungai CyberShield | Cyber Hygiene for Kenyan Businesses">
+    <meta property="og:description"
+        content="Prevent common attacks before they happen. Simple, honest cybersecurity for Kenyan micro-businesses — nationwide, remote or on-site.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://mungaisecurity.com/">
+    <meta property="og:image" content="https://mungaisecurity.com/assets/og-image.jpg">
+    <meta property="og:locale" content="en_KE">
+
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Mungai CyberShield | Cyber Hygiene for Kenyan Businesses">
+    <meta name="twitter:description"
+        content="Close the gaps behind Kenya's most common cyberattacks. Honest, plain-English security for micro-businesses.">
+    <meta name="twitter:image" content="https://mungaisecurity.com/assets/og-image.jpg">
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@400;500&display=swap"
+        rel="stylesheet">
+
+    <!-- Structured Data: Local Business -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "LocalBusiness",
+        "name": "Mungai CyberShield",
+        "description": "Cybersecurity hygiene for small businesses in Kenya: phishing and WhatsApp scam defense, password and MFA hardening, and public footprint audits.",
+        "url": "https://mungaisecurity.com",
+        "telephone": "+254752535505",
+        "email": "mungaikaringa5@gmail.com",
+        "priceRange": "KES 9,000 - KES 32,500",
+        "address": { "@type": "PostalAddress", "addressLocality": "Nairobi", "addressCountry": "KE" },
+        "geo": { "@type": "GeoCoordinates", "latitude": "-1.2921", "longitude": "36.8219" },
+        "areaServed": { "@type": "Country", "name": "Kenya" },
+        "openingHours": "Mo-Sa 08:00-18:00",
+        "sameAs": ["https://wa.me/254752535505"],
+        "makesOffer": [
+            { "@type": "Offer", "name": "Digital Footprint Audit", "price": "13000", "priceCurrency": "KES" },
+            { "@type": "Offer", "name": "Security Essentials Bundle", "price": "32500", "priceCurrency": "KES" },
+            { "@type": "Offer", "name": "Phishing & Scam Defense Workshop", "price": "26000", "priceCurrency": "KES" }
+        ]
+    }
+    </script>
+
+    <!-- Structured Data: FAQ -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "FAQPage",
+        "mainEntity": [
+            { "@type": "Question", "name": "Do you need access to my servers or internal network?", "acceptedAnswer": { "@type": "Answer", "text": "No. I do not access your servers, routers, or internal network. All services are educational or based on public research. You watch me set up security tools on your own screen. Nothing is done without your consent." } },
+            { "@type": "Question", "name": "What if I have fewer than 5 employees?", "acceptedAnswer": { "@type": "Answer", "text": "No. Micro-businesses are common targets, precisely because attackers assume they have weak security. The Phishing Training is priced per session, not per head, and the Password Hardening covers up to 5 accounts." } },
+            { "@type": "Question", "name": "Will I actually understand the audit report?", "acceptedAnswer": { "@type": "Answer", "text": "Yes. The report is written in plain language, with no jargon or technical scan output. It lists what is publicly visible about your business and what to do next. This is not a penetration test or a technical vulnerability assessment." } },
+            { "@type": "Question", "name": "Do you only work with Nairobi businesses?", "acceptedAnswer": { "@type": "Answer", "text": "No. I work with businesses across Kenya. Training and audits are usually done remotely over Zoom or WhatsApp. On-site sessions outside Nairobi can be arranged." } },
+            { "@type": "Question", "name": "Do you have certifications?", "acceptedAnswer": { "@type": "Answer", "text": "Not yet. I am currently pursuing a B.S. in Cybersecurity & Digital Forensics and working toward my first industry certification. What I offer does not require a certificate: plain-language training, password setup, and public research." } }
+        ]
+    }
+    </script>
+
+    <style>
+        /* ------------ ORIGINAL PNG ------------ */
+        :root {
+            --bg-base: #0a0f1d;
+            --bg-surface: #111827;
+            --bg-elevated: #1e293b;
+            --primary: #0284c7;
+            --primary-hover: #0369a1;
+            --accent: #38bdf8;
+            --accent-glow: rgba(56, 189, 248, 0.15);
+            --text-base: #f8fafc;
+            --text-muted: #94a3b8;
+            --text-dim: #64748b;
+            --border: rgba(148, 150, 184, 0.1);
+            --success: #22c55e;
+            --warning: #f59e0b;
+            --danger: #ef4444;
+            --radius: 12px;
+            --radius-sm: 8px;
+            --transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        html {
+            scroll-behavior: smooth;
+            scroll-padding-top: 80px;
+        }
+
+        body {
+            font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+            background-color: var(--bg-base);
+            color: var(--text-base);
+            line-height: 1.6;
+            overflow-x: hidden;
+        }
+
+        ::selection {
+            background: var(--primary);
+            color: white;
+        }
+
+        .skip-link {
+            position: absolute;
+            top: -40px;
+            left: 0;
+            background: var(--primary);
+            color: white;
+            padding: 8px 16px;
+            z-index: 100;
+            transition: top 0.3s;
+            font-weight: 600;
+            border-radius: 0 0 var(--radius-sm) 0;
+        }
+
+        .skip-link:focus {
+            top: 0;
+        }
+
+        h1,
+        h2,
+        h3,
+        h4 {
+            font-weight: 700;
+            line-height: 1.2;
+            letter-spacing: -0.02em;
+        }
+
+        h1 {
+            font-size: clamp(2.5rem, 5vw, 4rem);
+        }
+
+        h2 {
+            font-size: clamp(1.8rem, 3vw, 2.5rem);
+        }
+
+        h3 {
+            font-size: clamp(1.2rem, 2vw, 1.5rem);
+        }
+
+        .mono {
+            font-family: 'JetBrains Mono', monospace;
+            font-size: 0.9em;
+        }
+
+        .text-gradient {
+            background: linear-gradient(135deg, var(--accent) 0%, var(--primary) 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+        }
+
+        .text-muted {
+            color: var(--text-muted);
+        }
+
+        .text-dim {
+            color: var(--text-dim);
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 24px;
+        }
+
+        section {
+            padding: 80px 0;
+        }
+
+        /* ---- NAV ---- */
+        .navbar {
+            position: fixed;
+            top: 0;
+            left: 0;
+            right: 0;
+            z-index: 50;
+            background: rgba(10, 15, 29, 0.85);
+            backdrop-filter: blur(12px);
+            border-bottom: 1px solid var(--border);
+        }
+
+        .navbar .container {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            height: 72px;
+        }
+
+        .logo {
+            font-size: 1.5rem;
+            font-weight: 800;
+            color: var(--text-base);
+            text-decoration: none;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+
+        .logo-icon {
+            width: 36px;
+            height: 36px;
+            background: linear-gradient(135deg, var(--primary), var(--accent));
+            border-radius: var(--radius-sm);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 1.2rem;
+            color: white;
+        }
+
+        .nav-links {
+            display: flex;
+            gap: 32px;
+            list-style: none;
+            align-items: center;
+        }
+
+        .nav-links a {
+            color: var(--text-muted);
+            text-decoration: none;
+            font-weight: 500;
+            font-size: 0.95rem;
+            transition: var(--transition);
+            position: relative;
+        }
+
+        .nav-links a:hover {
+            color: var(--text-base);
+        }
+
+        .nav-links a::after {
+            content: '';
+            position: absolute;
+            bottom: -4px;
+            left: 0;
+            width: 0;
+            height: 2px;
+            background: var(--accent);
+            transition: var(--transition);
+        }
+
+        .nav-links a:hover::after {
+            width: 100%;
+        }
+
+        .nav-cta {
+            background: var(--primary);
+            color: white !important;
+            padding: 10px 24px;
+            border-radius: var(--radius-sm);
+            font-weight: 600;
+        }
+
+        .nav-cta:hover {
+            background: var(--primary-hover);
+            transform: translateY(-1px);
+        }
+
+        .menu-toggle {
+            display: none;
+            flex-direction: column;
+            gap: 5px;
+            background: none;
+            border: none;
+            cursor: pointer;
+            padding: 10px;
+            min-width: 44px;
+            min-height: 44px;
+            align-items: center;
+            justify-content: center;
+            z-index: 60;
+        }
+
+        .menu-toggle span {
+            display: block;
+            width: 24px;
+            height: 2px;
+            background: var(--text-base);
+            transition: var(--transition);
+            border-radius: 2px;
+        }
+
+        @media (max-width: 768px) {
+            .menu-toggle {
+                display: flex;
+            }
+
+            .nav-links {
+                position: fixed;
+                top: 72px;
+                left: 0;
+                right: 0;
+                background: var(--bg-surface);
+                flex-direction: column;
+                padding: 32px 24px;
+                gap: 24px;
+                border-bottom: 1px solid var(--border);
+                transform: translateY(-100%);
+                opacity: 0;
+                visibility: hidden;
+                transition: transform 0.3s, opacity 0.3s, visibility 0.3s;
+            }
+
+            body.nav-is-open .nav-links {
+                transform: translateY(0);
+                opacity: 1;
+                visibility: visible;
+            }
+
+            body.nav-is-open .menu-toggle span:nth-child(1) {
+                transform: rotate(45deg) translate(5px, 5px);
+            }
+
+            body.nav-is-open .menu-toggle span:nth-child(2) {
+                opacity: 0;
+            }
+
+            body.nav-is-open .menu-toggle span:nth-child(3) {
+                transform: rotate(-45deg) translate(5px, -5px);
+            }
+        }
+
+        /* ---- HERO ---- */
+        .hero {
+            min-height: 100vh;
+            display: flex;
+            align-items: center;
+            padding-top: 72px;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .hero::before {
+            content: '';
+            position: absolute;
+            top: -50%;
+            right: -20%;
+            width: 800px;
+            height: 800px;
+            background: radial-gradient(circle, var(--accent-glow) 0%, transparent 70%);
+            pointer-events: none;
+        }
+
+        .hero-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 64px;
+            align-items: center;
+        }
+
+        .hero-badge {
+            display: inline-flex;
+            align-items: center;
+            gap: 8px;
+            background: var(--bg-surface);
+            border: 1px solid var(--border);
+            padding: 8px 16px;
+            border-radius: 100px;
+            font-size: 0.875rem;
+            color: var(--accent);
+            margin-bottom: 24px;
+        }
+
+        .hero-badge .dot {
+            width: 8px;
+            height: 8px;
+            background: var(--accent);
+            border-radius: 50%;
+            animation: pulse 2s infinite;
+        }
+
+        @keyframes pulse {
+
+            0%,
+            100% {
+                opacity: 1;
+            }
+
+            50% {
+                opacity: 0.5;
+            }
+        }
+
+        .hero h1 {
+            margin-bottom: 24px;
+        }
+
+        .hero p.lead {
+            font-size: clamp(1.1rem, 2vw, 1.35rem);
+            color: var(--text-muted);
+            margin-bottom: 32px;
+            max-width: 540px;
+            line-height: 1.6;
+        }
+
+        .hero-cta-group {
+            display: flex;
+            gap: 16px;
+            flex-wrap: wrap;
+            margin-bottom: 40px;
+        }
+
+        .btn {
+            display: inline-flex;
+            align-items: center;
+            gap: 8px;
+            padding: 14px 32px;
+            border-radius: var(--radius-sm);
+            font-weight: 600;
+            text-decoration: none;
+            transition: var(--transition);
+            border: none;
+            cursor: pointer;
+            font-size: 1rem;
+        }
+
+        .btn-primary {
+            background: var(--primary);
+            color: white;
+        }
+
+        .btn-primary:hover {
+            background: var(--primary-hover);
+            transform: translateY(-2px);
+        }
+
+        .btn-outline {
+            background: transparent;
+            color: var(--text-base);
+            border: 1px solid var(--border);
+        }
+
+        .btn-outline:hover {
+            background: var(--bg-surface);
+            border-color: var(--accent);
+            color: var(--accent);
+        }
+
+        .hero-trust {
+            display: flex;
+            align-items: center;
+            gap: 16px;
+            font-size: 0.875rem;
+            color: var(--text-dim);
+        }
+
+        .hero-trust .avatars {
+            display: flex;
+        }
+
+        .hero-trust .avatars span {
+            width: 32px;
+            height: 32px;
+            border-radius: 50%;
+            background: var(--bg-elevated);
+            border: 2px solid var(--bg-base);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 0.9rem;
+            color: var(--accent);
+            margin-left: -8px;
+        }
+
+        .hero-visual {
+            position: relative;
+        }
+
+        .hero-card {
+            background: var(--bg-surface);
+            border: 1px solid var(--border);
+            border-radius: var(--radius);
+            padding: 32px;
+            box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.4);
+            position: relative;
+        }
+
+        .stat-row {
+            display: flex;
+            justify-content: space-between;
+            margin-bottom: 24px;
+            padding-bottom: 24px;
+            border-bottom: 1px solid var(--border);
+        }
+
+        .stat-item h4 {
+            font-size: 2rem;
+            color: var(--accent);
+            font-family: 'JetBrains Mono', monospace;
+        }
+
+        .stat-item p {
+            font-size: 0.875rem;
+            color: var(--text-dim);
+        }
+
+        .checklist {
+            list-style: none;
+        }
+
+        .checklist li {
+            display: flex;
+            align-items: center;
+            gap: 12px;
+            padding: 10px 0;
+            color: var(--text-muted);
+            font-size: 0.95rem;
+        }
+
+        .check-icon {
+            width: 20px;
+            height: 20px;
+            background: rgba(34, 197, 94, 0.15);
+            color: var(--success);
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 0.75rem;
+        }
+
+        @media (max-width: 768px) {
+            .hero-grid {
+                grid-template-columns: 1fr;
+                gap: 48px;
+            }
+
+            .hero {
+                min-height: auto;
+                padding: 120px 0 60px;
+            }
+
+            .hero-visua {
+                order: -1;
+            }
+        }
+
+        /* ---- TRUST BAR ---- */
+        .trust-bar {
+            background: var(--bg-surface);
+            border-top: 1px solid var(--border);
+            border-bottom: 1px solid var(--border);
+            padding: 40px 0;
+        }
+
+        .trust-label {
+            text-align: center;
+            font-size: 0.875rem;
+            color: var(--text-dim);
+            text-transform: uppercase;
+            letter-spacing: 0.1em;
+            margin-bottom: 24px;
+        }
+
+        .trust-grid {
+            display: flex;
+            justify-content: center;
+            gap: 48px;
+            flex-wrap: wrap;
+            align-items: center;
+        }
+
+        .trust-item {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            color: var(--text-muted);
+            font-weight: 600;
+            font-size: 0.95rem;
+        }
+
+        .trust-item .badge {
+            background: rgba(2, 132, 199, 0.1);
+            color: var(--accent);
+            padding: 4px 10px;
+            border-radius: 4px;
+            font-family: 'JetBrains Mono', monospace;
+            font-size: 0.8rem;
+        }
+
+        /* ---- SECTION ---- */
+        .section-header {
+            text-align: center;
+            max-width: 640px;
+            margin: 0 auto 64px;
+        }
+
+        .section-header h2 {
+            margin-bottom: 16px;
+        }
+
+        .section-header p {
+            color: var(--text-muted);
+            font-size: 1.1rem;
+        }
+
+        .section-label {
+            display: inline-block;
+            background: rgba(2, 132, 199, 0.1);
+            color: var(--accent);
+            padding: 6px 16px;
+            border-radius: 100px;
+            font-size: 0.875rem;
+            font-weight: 600;
+            margin-bottom: 16px;
+            font-family: 'JetBrains Mono', monospace;
+        }
+
+        /* ---- SERVICES ---- */
+        .services-grid {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 24px;
+        }
+
+        .service-card {
+            background: var(--bg-surface);
+            border: 1px solid var(--border);
+            border-radius: var(--radius);
+            padding: 40px 32px;
+            transition: var(--transition);
+            position: relative;
+            overflow: hidden;
+        }
+
+        .service-card::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            height: 3px;
+            background: linear-gradient(90deg, var(--primary), var(--accent));
+            opacity: 0;
+            transition: var(--transition);
+        }
+
+        .service-card:hover {
+            transform: translateY(-4px);
+            border-color: rgba(56, 189, 248, 0.2);
+            box-shadow: 0 20px 20px -5px rgba(0, 0, 0, 0.4);
+        }
+
+        .service-card:hover::before {
+            opacity: 1;
+        }
+
+        .service-icon {
+            width: 56px;
+            height: 56px;
+            background: rgba(2, 132, 199, 0.1);
+            border-radius: var(--radius-sm);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-bottom: 24px;
+            color: var(--accent);
+            font-size: 1.5rem;
+        }
+
+        .service-card h3 {
+            margin-bottom: 12px;
+            font-size: 1.25rem;
+        }
+
+        .service-card p {
+            color: var(--text-muted);
+            font-size: 0.95rem;
+            margin-bottom: 20px;
+        }
+
+        .service-features {
+            list-style: none;
+        }
+
+        .service-features li {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            padding: 6px 0;
+            color: var(--text-dim);
+            font-size: 0.9rem;
+        }
+
+        .service-features li::before {
+            content: '→';
+            color: var(--accent);
+            font-weight: 700;
+        }
+
+        @media (max-width: 968px) {
+            .services-grid {
+                grid-template-columns: 1fr;
+                max-width: 600px;
+                margin: 0 auto;
+            }
+        }
+
+        /* ---- CALCULATOR ---- */
+        .calculator-section {
+            background: var(--bg-surface);
+            border-top: 1px solid var(--border);
+            border-bottom: 1px solid var(--border);
+        }
+
+        .calculator-container {
+            max-width: 800px;
+            margin: 0 auto;
+            background: var(--bg-base);
+            border: 1px solid var(--border);
+            border-radius: var(--radius);
+            padding: 48px;
+        }
+
+        .calc-question {
+            margin-bottom: 12px;
+            padding: 16px 20px;
+            background: var(--bg-surface);
+            border-radius: var(--radius-sm);
+            border: 1px solid var(--border);
+            display: flex;
+            align-items: center;
+            gap: 16px;
+            cursor: pointer;
+            transition: var(--transition);
+            user-select: none;
+        }
+
+        .calc-question:hover {
+            border-color: rgba(56, 189, 248, 0.3);
+        }
+
+        .calc-question input[type="checkbox"] {
+            width: 20px;
+            height: 20px;
+            accent-color: var(--primary);
+            cursor: pointer;
+        }
+
+        .calc-question label {
+            cursor: pointer;
+            font-size: 0.95rem;
+            color: var(--text-muted);
+            flex: 1;
+        }
+
+        .calc-results {
+            margin-top: 32px;
+            padding: 32px;
+            background: var(--bg-surface);
+            border-radius: var(--radius);
+            border: 1px solid var(--border);
+            text-align: center;
+            display: none;
+        }
+
+        .calc-results.active {
+            display: block;
+            animation: fadeIn 0.5s ease;
+        }
+
+        @keyframes fadeIn {
+            from {
+                opacity: 0;
+                transform: translateY(10px);
+            }
+
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        .risk-score {
+            font-size: 4rem;
+            font-weight: 800;
+            font-family: 'JetBrains Mono', monospace;
+            margin: 16px 0;
+        }
+
+        .risk-score.low {
+            color: var(--success);
+        }
+
+        .risk-score.medium {
+            color: var(--warning);
+        }
+
+        .risk-score.high {
+            color: var(--danger);
+        }
+
+        .risk-label {
+            font-size: 1.25rem;
+            font-weight: 600;
+            margin-bottom: 16px;
+        }
+
+        .risk-desc {
+            color: var(--text-muted);
+            margin-bottom: 20px;
+        }
+
+        .calc-recs-list {
+            text-align: left;
+            margin-top: 20px;
+            padding: 16px;
+            background: var(--bg-base);
+            border-radius: var(--radius-sm);
+            color: var(--text-muted);
+            font-size: 0.95rem;
+            line-height: 1.5;
+        }
+
+        .calc-recs-list li {
+            margin-bottom: 8px;
+        }
+
+        /* ---- KENYA THREATS ---- */
+        .kenya-threats {
+            background: var(--bg-base);
+        }
+
+        .threat-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 24px;
+            margin-top: 24px;
+        }
+
+        .threat-card {
+            background: var(--bg-surface);
+            border: 1px solid var(--border);
+            border-radius: var(--radius);
+            padding: 24px;
+        }
+
+        .threat-card .icon {
+            font-size: 2rem;
+            margin-bottom: 12px;
+            color: var(--accent);
+        }
+
+        .icon-svg {
+            width: 1em;
+            height: 1em;
+            display: inline-block;
+            vertical-align: middle;
+        }
+
+        .threat-card h4 {
+            margin-bottom: 8px;
+        }
+
+        .threat-card p {
+            color: var(--text-muted);
+            font-size: 0.95rem;
+        }
+
+        @media (max-width: 768px) {
+            .threat-grid {
+                grid-template-columns: 1fr;
+            }
+        }
+
+        /* ---- WHY ---- */
+        .why-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 64px;
+            align-items: center;
+        }
+
+        .why-content>p {
+            color: var(--text-muted);
+            font-size: 1.1rem;
+            margin-bottom: 32px;
+        }
+
+        .why-list {
+            list-style: none;
+        }
+
+        .why-list li {
+            display: flex;
+            gap: 16px;
+            margin-bottom: 24px;
+        }
+
+        .why-list .icon {
+            width: 48px;
+            height: 48px;
+            background: rgba(2, 132, 199, 0.1);
+            border-radius: var(--radius-sm);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 1.25rem;
+            color: var(--accent);
+            flex-shrink: 0;
+        }
+
+        .why-list h4 {
+            margin-bottom: 6px;
+        }
+
+        .why-list p {
+            color: var(--text-muted);
+            font-size: 0.95rem;
+        }
+
+        .why-visual {
+            position: relative;
+        }
+
+        .why-card {
+            background: var(--bg-surface);
+            border: 1px solid var(--border);
+            border-radius: var(--radius);
+            padding: 32px;
+        }
+
+        .why-card .highlight {
+            color: var(--accent);
+            font-weight: 600;
+        }
+
+        .why-card .quote {
+            font-style: italic;
+            color: var(--text-muted);
+            border-left: 3px solid var(--primary);
+            padding-left: 20px;
+            margin: 20px 0;
+        }
+
+        @media (max-width: 768px) {
+            .why-grid {
+                grid-template-columns: 1fr;
+            }
+        }
+
+        /* ---- PRICING ---- */
+        .pricing-grid {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 24px;
+        }
+
+        .pricing-card {
+            background: var(--bg-surface);
+            border: 1px solid var(--border);
+            border-radius: var(--radius);
+            padding: 40px 32px;
+            transition: var(--transition);
+            position: relative;
+        }
+
+        .pricing-card.featured {
+            border-color: var(--primary);
+            box-shadow: 0 0 40px rgba(2, 132, 199, 0.1);
+        }
+
+        .pricing-card.featured::before {
+            content: 'POPULAR';
+            position: absolute;
+            top: -12px;
+            left: 50%;
+            transform: translateX(-50%);
+            background: var(--primary);
+            color: white;
+            padding: 4px 16px;
+            border-radius: 100px;
+            font-size: 0.75rem;
+            font-weight: 700;
+        }
+
+        .pricing-header {
+            margin-bottom: 24px;
+            padding-bottom: 24px;
+            border-bottom: 1px solid var(--border);
+        }
+
+        .pricing-header .desc {
+            color: var(--text-dim);
+            font-size: 0.9rem;
+            margin-bottom: 16px;
+        }
+
+        .price {
+            font-size: 2.5rem;
+            font-weight: 800;
+            font-family: 'JetBrains Mono', monospace;
+        }
+
+        .price span {
+            font-size: 1rem;
+            color: var(--text-dim);
+        }
+
+        .pricing-features {
+            list-style: none;
+            margin-bottom: 32px;
+        }
+
+        .pricing-features li {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            padding: 10px 0;
+            color: var(--text-muted);
+            font-size: 0.95rem;
+            border-bottom: 1px solid rgba(148, 163, 184, 0.05);
+        }
+
+        .pricing-features li.included::before {
+            content: '✓';
+            color: var(--success);
+            font-weight: 700;
+        }
+
+        .pricing-features li.not-included {
+            color: var(--text-dim);
+            text-decoration: line-through;
+        }
+
+        .pricing-features li.not-included::before {
+            content: '✕';
+            color: var(--danger);
+        }
+
+        .founding-banner {
+            grid-column: 1 / -1;
+            background: linear-gradient(135deg, rgba(2, 132, 199, 0.1), rgba(56, 189, 248, 0.05));
+            border: 1px solid rgba(2, 132, 199, 0.2);
+            border-radius: var(--radius);
+            padding: 32px;
+            text-align: center;
+            margin-top: 24px;
+        }
+
+        @media (max-width: 968px) {
+            .pricing-grid {
+                grid-template-columns: 1fr;
+                max-width: 500px;
+                margin: 0 auto;
+            }
+        }
+
+        /* ---- FAQ ---- */
+        .faq-list {
+            max-width: 800px;
+            margin: 0 auto;
+        }
+
+        .faq-item {
+            background: var(--bg-surface);
+            border: 1px solid var(--border);
+            border-radius: var(--radius-sm);
+            margin-bottom: 12px;
+            overflow: hidden;
+        }
+
+        .faq-question {
+            width: 100%;
+            padding: 24px;
+            background: none;
+            border: none;
+            color: var(--text-base);
+            font-size: 1.05rem;
+            font-weight: 600;
+            text-align: left;
+            cursor: pointer;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .faq-question:hover {
+            color: var(--accent);
+        }
+
+        .faq-icon {
+            width: 24px;
+            height: 24px;
+            position: relative;
+            flex-shrink: 0;
+        }
+
+        .faq-icon::before,
+        .faq-icon::after {
+            content: '';
+            position: absolute;
+            background: var(--accent);
+            transition: var(--transition);
+        }
+
+        .faq-icon::before {
+            width: 12px;
+            height: 2px;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+        }
+
+        .faq-icon::after {
+            width: 2px;
+            height: 12px;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+        }
+
+        .faq-item.open .faq-icon::after {
+            opacity: 0;
+        }
+
+        .faq-answer {
+            max-height: 0;
+            overflow: hidden;
+            transition: max-height 0.4s;
+        }
+
+        .faq-item.open .faq-answer {
+            max-height: 1000px;
+        }
+
+        .faq-answer-inner {
+            padding: 0 24px 24px;
+            color: var(--text-muted);
+            line-height: 1.7;
+        }
+
+        /* ---- CONTACT ---- */
+        .contact-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 64px;
+            align-items: start;
+        }
+
+        .contact-methods {
+            list-style: none;
+        }
+
+        .contact-methods li {
+            display: flex;
+            align-items: center;
+            gap: 16px;
+            margin-bottom: 20px;
+            color: var(--text-muted);
+        }
+
+        .contact-methods .icon {
+            font-size: 1.25rem;
+            color: var(--accent);
+            flex-shrink: 0;
+        }
+
+        .contact-methods a {
+            color: var(--text-base);
+            text-decoration: none;
+            font-weight: 600;
+        }
+
+        .contact-form {
+            background: var(--bg-surface);
+            border: 1px solid var(--border);
+            border-radius: var(--radius);
+            padding: 40px;
+        }
+
+        .form-group {
+            margin-bottom: 20px;
+        }
+
+        .form-group label {
+            display: block;
+            margin-bottom: 8px;
+            font-size: 0.9rem;
+            font-weight: 500;
+            color: var(--text-muted);
+        }
+
+        .form-group input,
+        .form-group textarea,
+        .form-group select {
+            width: 100%;
+            padding: 12px 16px;
+            background: var(--bg-base);
+            border: 1px solid var(--border);
+            border-radius: var(--radius-sm);
+            color: var(--text-base);
+            font-family: inherit;
+            font-size: 1rem;
+        }
+
+        .form-group input:focus,
+        .form-group textarea:focus,
+        .form-group select:focus {
+            outline: none;
+            border-color: var(--primary);
+            box-shadow: 0 0 0 3px rgba(2, 132, 199, 0.1);
+        }
+
+        .form-group textarea {
+            min-height: 120px;
+            resize: vertical;
+        }
+
+        @media (max-width: 768px) {
+            .contact-grid {
+                grid-template-columns: 1fr;
+            }
+        }
+
+        /* ---- FOOTER ---- */
+        .footer {
+            background: var(--bg-surface);
+            border-top: 1px solid var(--border);
+            padding: 48px 0 24px;
+        }
+
+        .footer-grid {
+            display: grid;
+            grid-template-columns: 2fr 1fr 1fr;
+            gap: 48px;
+            margin-bottom: 48px;
+        }
+
+        .footer-brand p {
+            color: var(--text-dim);
+            margin-top: 12px;
+            font-size: 0.95rem;
+            max-width: 300px;
+        }
+
+        .footer-links h4 {
+            font-size: 0.9rem;
+            text-transform: uppercase;
+            letter-spacing: 0.1em;
+            color: var(--text-dim);
+            margin-bottom: 20px;
+        }
+
+        .footer-links ul {
+            list-style: none;
+        }
+
+        .footer-links li {
+            margin-bottom: 12px;
+        }
+
+        .footer-links a {
+            color: var(--text-muted);
+            text-decoration: none;
+            font-size: 0.95rem;
+        }
+
+        .footer-links a:hover {
+            color: var(--accent);
+        }
+
+        .footer-bottom {
+            border-top: 1px solid var(--border);
+            padding-top: 24px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            flex-wrap: wrap;
+            gap: 16px;
+        }
+
+        .footer-bottom p {
+            color: var(--text-dim);
+            font-size: 0.875rem;
+        }
+
+        .social-links {
+            display: flex;
+            gap: 16px;
+        }
+
+        .social-links a {
+            width: 40px;
+            height: 40px;
+            border-radius: var(--radius-sm);
+            background: var(--bg-base);
+            border: 1px solid var(--border);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: var(--text-muted);
+            text-decoration: none;
+            font-size: 1.1rem;
+        }
+
+        .social-links a:hover {
+            background: var(--primary);
+            color: white;
+        }
+
+        /* ---- NEW: Consent, Threat list, Success ---- */
+        .consent-checkbox {
+            display: flex;
+            gap: 10px;
+            align-items: flex-start;
+            margin-bottom: 16px;
+        }
+
+        .consent-checkbox input {
+            width: 18px;
+            height: 18px;
+            accent-color: var(--primary);
+            flex-shrink: 0;
+            margin-top: 4px;
+        }
+
+        .consent-checkbox label {
+            font-size: 0.85rem;
+            color: var(--text-dim);
+        }
+
+        .consent-checkbox a {
+            color: var(--accent);
+        }
+
+        .form-success {
+            display: none;
+            background: rgba(34, 197, 94, 0.1);
+            border: 1px solid var(--success);
+            color: var(--success);
+            padding: 16px 20px;
+            border-radius: var(--radius-sm);
+            margin-bottom: 16px;
+            font-size: 0.95rem;
+        }
+
+        .form-success.active {
+            display: block;
+        }
+
+        .threat-card {
+            background: var(--bg-surface);
+            border: 1px solid var(--border);
+            border-radius: var(--radius);
+            padding: 24px;
+        }
+    </style>
+</head>
+
+<body>
+    <a href="#main-content" class="skip-link">Skip to main content</a>
+
+    <!-- NAVIGATION (unchanged) -->
+    <nav class="navbar" role="navigation" aria-label="Main navigation">
+        <div class="container">
+            <a href="#" class="logo" aria-label="Mungai CyberShield Home">
+                <div class="logo-icon"><svg class="icon-svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 13c0 5-3.5 7.5-7.66 8.95a1 1 0 0 1-.67-.01C7.5 20.5 4 18 4 13V6a1 1 0 0 1 1-1c2 0 4.5-1.2 6.24-2.72a1.17 1.17 0 0 1 1.52 0C14.51 3.81 17 5 19 5a1 1 0 0 1 1 1z" /></svg></div>
+                Mungai<span style="color: var(--accent);">CyberShield</span>
+            </a>
+            <button class="menu-toggle" aria-label="Toggle mobile menu" aria-expanded="false" aria-controls="nav-menu">
+                <span></span><span></span><span></span>
+            </button>
+            <ul class="nav-links" id="nav-menu" role="menubar">
+                <li role="none"><a href="#services" role="menuitem">Services</a></li>
+                <li role="none"><a href="#calculator" role="menuitem">Risk Check</a></li>
+                <li role="none"><a href="#threats" role="menuitem">Kenya Threats</a></li>
+                <li role="none"><a href="#why" role="menuitem">Why Me</a></li>
+                <li role="none"><a href="#pricing" role="menuitem">Pricing</a></li>
+                <li role="none"><a href="#faq" role="menuitem">FAQ</a></li>
+                <li role="none"><a href="#contact" class="nav-cta" role="menuitem">Free Consultation</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <main id="main-content">
+        <!-- HERO MODIFIED -->
+        <section class="hero" aria-labelledby="hero-heading">
+            <div class="container">
+                <div class="hero-grid">
+                    <div class="hero-content">
+                        <div class="hero-badge"><span class="dot"></span> Available for new clients</div>
+                        <h1 id="hero-heading">The hack that empties Kenyan business accounts isn't clever — it's a
+                            <span class="text-gradient">WhatsApp invoice</span> that looks real enough to pay.</h1>
+                        <p class="lead">
+                            Reused passwords. Cloned WhatsApp accounts. A digital footprint that hands scammers
+                            everything they need to sound legitimate. These are the ordinary gaps behind Kenya's
+                            fastest-growing business scams — and exactly what I audit, harden, and train your team
+                            to catch. Plain language, fixed price, no enterprise overhead.
+                        </p>
+                        <div class="hero-cta-group">
+                            <a href="#contact" class="btn btn-primary">Request Free Consultation <span>→</span></a>
+                            <a href="#calculator" class="btn btn-outline">Check Your Risk Level</a>
+                        </div>
+                        <div class="hero-trust">
+                            <div class="avatars">
+                                <span><svg class="icon-svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M15 21v-5a1 1 0 0 0-1-1h-4a1 1 0 0 0-1 1v5" /> <path d="M17.774 10.31a1.12 1.12 0 0 0-1.549 0 2.5 2.5 0 0 1-3.451 0 1.12 1.12 0 0 0-1.548 0 2.5 2.5 0 0 1-3.452 0 1.12 1.12 0 0 0-1.549 0 2.5 2.5 0 0 1-3.77-3.248l2.889-4.184A2 2 0 0 1 7 2h10a2 2 0 0 1 1.653.873l2.895 4.192a2.5 2.5 0 0 1-3.774 3.244" /> <path d="M4 10.95V19a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2v-8.05" /></svg></span>
+                                <span><svg class="icon-svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M16 20V4a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v16" /> <rect width="20" height="14" x="2" y="6" rx="2" /></svg></span>
+                                <span><svg class="icon-svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M18 5a2 2 0 0 1 2 2v8.526a2 2 0 0 0 .212.897l1.068 2.127a1 1 0 0 1-.9 1.45H3.62a1 1 0 0 1-.9-1.45l1.068-2.127A2 2 0 0 0 4 15.526V7a2 2 0 0 1 2-2z" /> <path d="M20.054 15.987H3.946" /></svg></span>
+                            </div>
+                            <span>For any Kenyan business with a digital presence — shop, service, or online store</span>
+                        </div>
+                    </div>
+                    <div class="hero-visual">
+                        <div class="hero-card">
+                            <div class="stat-row">
+                                <div class="stat-item">
+                                    <h4>3.37B</h4>
+                                    <p>cyber threat events detected across Kenya in a single quarter (Q1 2026) —
+                                        most exploiting gaps businesses don't know they have <br>(Communications
+                                        Authority of Kenya)</p>
+                                </div>
+                            </div>
+                            <ul class="checklist">
+                                <li><span class="check-icon"><svg class="icon-svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 6 9 17l-5-5" /></svg></span> No expensive software required</li>
+                                <li><span class="check-icon"><svg class="icon-svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 6 9 17l-5-5" /></svg></span> No technical jargon</li>
+                                <li><span class="check-icon"><svg class="icon-svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 6 9 17l-5-5" /></svg></span> No disruption to daily operations</li>
+                                <li><span class="check-icon"><svg class="icon-svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 6 9 17l-5-5" /></svg></span> Fixed, upfront pricing</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- TRUST BAR: rewritten for client-facing clarity -->
+        <section class="trust-bar" aria-label="What working with me means for you">
+            <div class="container">
+                <p class="trust-label">What This Means For You</p>
+                <div class="trust-grid">
+                    <div class="trust-item"><span class="badge">1</span> Reports in plain language</div>
+                    <div class="trust-item"><span class="badge">2</span> Fixed price, no surprises</div>
+                    <div class="trust-item"><span class="badge">3</span> No access to your live systems</div>
+                </div>
+            </div>
+        </section>
+
+        <!-- NEW: KENYA THREATS SECTION -->
+        <section id="threats" class="kenya-threats" aria-labelledby="threats-heading">
+            <div class="container">
+                <div class="section-header">
+                    <span class="section-label">Kenya Today</span>
+                    <h2 id="threats-heading">These are the attacks Kenyan businesses face daily</h2>
+                    <p>Sourced from the Communications Authority of Kenya (CA) Quarterly Sector Statistics Report
+                        and the National KE-CIRT/CC. Figures current as of August 2026.</p>
+                </div>
+                <div class="threat-grid">
+                    <article class="threat-card">
+                        <div class="icon"><svg class="icon-svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M22 10.5V6a2 2 0 0 0-2-2H4a2 2 0 0 0-2 2v12c0 1.1.9 2 2 2h12.5" /> <path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7" /> <path d="M20 14v4" /> <path d="M20 22v.01" /></svg></div>
+                        <h4>Business Email Compromise & Phishing</h4>
+                        <p>Fake invoices from "suppliers" and calls from "the CEO" trick staff into transferring
+                            money. The CA reports that attackers increasingly use AI to write more convincing
+                            phishing messages and impersonate executives.</p>
+                    </article>
+                    <article class="threat-card">
+                        <div class="icon"><svg class="icon-svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="10" /> <path d="M12 2a14.5 14.5 0 0 0 0 20 14.5 14.5 0 0 0 0-20" /> <path d="M2 12h20" /></svg></div>
+                        <h4>Outdated Websites & System Attacks</h4>
+                        <p>That 3.37 billion figure isn't abstract — most of it comes from unpatched software.
+                            Over 120 Kenyan business websites were defaced between May 2025 and March 2026, mostly
+                            through outdated website software and plugins.</p>
+                    </article>
+                    <article class="threat-card">
+                        <div class="icon"><svg class="icon-svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m15.5 7.5 2.3 2.3a1 1 0 0 0 1.4 0l2.1-2.1a1 1 0 0 0 0-1.4L19 4" /> <path d="m21 2-9.6 9.6" /> <circle cx="7.5" cy="15.5" r="5.5" /></svg></div>
+                        <h4>Password & MFA Weaknesses</h4>
+                        <p>Reused passwords are tested against email, bank, and accounting logins. The CA recorded
+                            over 46 million brute-force attempts in Q1 2026 alone. An app-based authenticator stops
+                            these attempts cold, even when a password has already leaked.</p>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <!-- SERVICES -->
+        <section id="services" aria-labelledby="services-heading">
+            <div class="container">
+                <div class="section-header">
+                    <span class="section-label">Services</span>
+                    <h2 id="services-heading">Three services. Zero fluff. Real protection.</h2>
+                    <p>Three fundamentals that close the most common security gaps in Kenyan businesses.</p>
+                </div>
+                <div class="services-grid">
+                    <article class="service-card">
+                        <div class="service-icon"><svg class="icon-svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 13c0 5-3.5 7.5-7.66 8.95a1 1 0 0 1-.67-.01C7.5 20.5 4 18 4 13V6a1 1 0 0 1 1-1c2 0 4.5-1.2 6.24-2.72a1.17 1.17 0 0 1 1.52 0C14.51 3.81 17 5 19 5a1 1 0 0 1 1 1z" /> <path d="M12 8v4" /> <path d="M12 16h.01" /></svg></div>
+                        <h3>Phishing &amp; WhatsApp Scam Training</h3>
+                        <p>Staff are often the first target. I train them to recognize fake WhatsApp messages,
+                            phishing emails, and impersonation scams such as fake "urgent" payment requests from
+                            "the CEO" or a "supplier."</p>
+                        <ul class="service-features">
+                            <li>Live workshop (60–90 min) — on-site or on Zoom</li>
+                            <li>Real examples of scams targeting your industry</li>
+                            <li>Simple reporting steps for suspicious messages</li>
+                            <li>Business email compromise (BEC) red-flag checklist</li>
+                        </ul>
+                    </article>
+                    <article class="service-card">
+                        <div class="service-icon"><svg class="icon-svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect width="18" height="11" x="3" y="11" rx="2" ry="2" /> <path d="M7 11V7a5 5 0 0 1 10 0v4" /></svg></div>
+                        <h3>Password &amp; MFA Hardening</h3>
+                        <p>Most breaches start with a reused or leaked password. I help you set up strong, unique
+                            passwords and MFA across your business accounts.</p>
+                        <ul class="service-features">
+                            <li>Password manager setup (Bitwarden/1Password)</li>
+                            <li>MFA on Google Workspace / Microsoft 365 / email</li>
+                            <li>App-based MFA setup (SIM-swap resistant, unlike SMS codes)</li>
+                            <li>Have I Been Pwned review for every login</li>
+                        </ul>
+                    </article>
+                    <article class="service-card">
+                        <div class="service-icon"><svg class="icon-svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m21 21-4.34-4.34" /> <circle cx="11" cy="11" r="8" /></svg></div>
+                        <h3>Public Footprint Audit</h3>
+                        <p>See what is publicly visible about your business online, before someone uses it against
+                            you, your staff, or your clients.</p>
+                        <ul class="service-features">
+                            <li>OSINT report (public tools, no hacking)</li>
+                            <li>Social media and domain exposure scan</li>
+                            <li>Data breach exposure check</li>
+                            <li>Privacy cleanup checklist for your staff</li>
+                        </ul>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <!-- RISK CALCULATOR MODIFIED -->
+        <section id="calculator" class="calculator-section" aria-labelledby="calc-heading">
+            <div class="container">
+                <div class="section-header">
+                    <span class="section-label">Free Tool</span>
+                    <h2 id="calc-heading">How Secure Is Your Business Right Now?</h2>
+                    <p>Answer 6 quick yes–no questions. Get an instant risk score and specific next steps.</p>
+                </div>
+                <div class="calculator-container">
+                    <form id="calculator-form" onsubmit="return false;">
+                        <label class="calc-question">
+                            <input type="checkbox" id="q1" onchange="calculateRisk()">
+                            <span>All business accounts use password manager (e.g., Bitwarden, 1Password)</span>
+                        </label>
+                        <label class="calc-question">
+                            <input type="checkbox" id="q2" onchange="calculateRisk()">
+                            <span>MFA is enabled on every business email and bank account</span>
+                        </label>
+                        <label class="calc-question">
+                            <input type="checkbox" id="q3" onchange="calculateRisk()">
+                            <span>Your team has done phishing/WhatsApp scam training in the past 6 months</span>
+                        </label>
+                        <label class="calc-question">
+                            <input type="checkbox" id="q4" onchange="calculateRisk()">
+                            <span>Your data is backed up to a separate device or encrypted cloud</span>
+                        </label>
+                        <label class="calc-question">
+                            <input type="checkbox" id="q5" onchange="calculateRisk()">
+                            <span>You have actually checked your online footprint (browser search yourself?)</span>
+                        </label>
+                        <label class="calc-question">
+                            <input type="checkbox" id="q6" onchange="calculateRisk()">
+                            <span>Your MFA uses an authenticator app, not just SMS codes (SIM-swap resistant)</span>
+                        </label>
+                    </form>
+                    <div id="calc-results" class="calc-results">
+                        <p class="text-dim mono">YOUR RISK LEVEL</p>
+                        <div id="risk-score" class="risk-score">--</div>
+                        <div id="risk-label" class="risk-label">--</div>
+                        <p id="risk-desc" class="risk-desc"></p>
+                        <div id="risk-recs" class="calc-recs" style="display: none;"></div>
+                        <a href="#contact" class="btn btn-primary" style="margin-top: 20px;">Request Free Consultation
+                            →</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- WHY WORK WITH ME -->
+        <section id="why" aria-labelledby="why-heading">
+            <div class="container">
+                <div class="why-grid">
+                    <div class="why-content">
+                        <span class="section-label">About</span>
+                        <h2 id="why-heading">Why Kenyan businesses work with me instead of expensive consultants</h2>
+                        <p>I'm a Cybersecurity and Digital Forensics student. Small businesses deserve real
+                            protection, not just banks and large firms. I interpret findings to a plain,
+                            easy-to-understand level, charge fairly, and only offer what I can honestly deliver.</p>
+                        <ul class="why-list">
+                            <li>
+                                <div class="icon"><svg class="icon-svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="10" /> <circle cx="12" cy="12" r="6" /> <circle cx="12" cy="12" r="2" /></svg></div>
+                                <div>
+                                    <h4>Focused on the Fundamentals</h4>
+                                    <p>Most cybercrime losses start with people, not systems — a shared password, a
+                                        fake payment alert, a convincing phone call. Training and MFA address this
+                                        first.</p>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="icon"><svg class="icon-svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M22 17a2 2 0 0 1-2 2H6.828a2 2 0 0 0-1.414.586l-2.202 2.202A.71.71 0 0 1 2 21.286V5a2 2 0 0 1 2-2h16a2 2 0 0 1 2 2z" /></svg></div>
+                                <div>
+                                    <h4>Plain-Language Reports</h4>
+                                    <p>Every recommendation is explained in simple terms, with no technical jargon.
+                                    </p>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="icon"><svg class="icon-svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 10c0 4.993-5.539 10.193-7.399 11.799a1 1 0 0 1-1.202 0C9.539 20.193 4 14.993 4 10a8 8 0 0 1 16 0" /> <circle cx="12" cy="10" r="3" /></svg></div>
+                                <div>
+                                    <h4>Kenya-Focused</h4>
+                                    <p>I focus on the scams Kenyan businesses actually face, not generic
+                                        international threat models.</p>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="why-visual">
+                        <div class="why-card">
+                            <p class="highlight">My Promise</p>
+                            <p class="quote">"I only offer what I can honestly deliver. I do not claim
+                                certifications I do not have, and I do not access your live systems. My work is
+                                focused on the basics that prevent most common attacks in Kenya."</p>
+                            <p style="color: var(--text-dim); font-size: 0.9rem;">— Mungai</p>
+                            <div style="margin-top: 20px; border-top: 1px solid var(--border); padding-top: 16px;">
+                                <p style="color: var(--text-dim); font-size: 0.875rem;">Current program:</p>
+                                <p style="font-size: 0.9rem; color: var(--text-muted);">B.S. Cybersecurity &amp; Digital
+                                    Forensics — Open University of Kenya</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- PRICING: updated -->
+        <section id="pricing" aria-labelledby="pricing-heading">
+            <div class="container">
+                <div class="section-header">
+                    <span class="section-label">Pricing</span>
+                    <h2 id="pricing-heading">Simple, transparent pricing</h2>
+                    <p>No hourly surprises. No retainer. Fixed price, delivered in days.</p>
+                </div>
+                <div class="pricing-grid">
+                    <article class="pricing-card">
+                        <div class="pricing-header">
+                            <h3>Digital Footprint Audit</h3>
+                            <p class="desc">What hackers already know</p>
+                            <div class="price">KES 13,000<span> / one-time</span></div>
+                        </div>
+                        <ul class="pricing-features">
+                            <li class="included">Comprehensive OSINT report</li>
+                            <li class="included">Phone / email exposure check</li>
+                            <li class="included">Domain & social media exposure scan</li>
+                            <li class="included">Privacy cleanup checklist</li>
+                            <li class="not-included">Employee training</li>
+                            <li class="not-included">Password/MFA setup</li>
+                        </ul>
+                        <a href="#contact" class="btn btn-outline" style="width: 100%;">Get Started</a>
+                    </article>
+
+                    <article class="pricing-card featured">
+                        <div class="pricing-header">
+                            <h3>Security Essentials Bundle</h3>
+                            <p class="desc">Most popular — complete protection</p>
+                            <div class="price">KES 32,500<span> / one-time</span></div>
+                        </div>
+                        <ul class="pricing-features">
+                            <li class="included">Everything in Footprint Audit</li>
+                            <li class="included">Password manager setup for team</li>
+                            <li class="included">MFA on all accounts (authenticator app)</li>
+                            <li class="included">Breach exposure check (HIBP)</li>
+                            <li class="included">Written security policy template</li>
+                            <li class="included">WhatsApp & phishing scam awareness guide</li>
+                            <li class="not-included">Employee training session</li>
+                        </ul>
+                        <a href="#contact" class="btn btn-primary" style="width:100%;">Get Started</a>
+                    </article>
+
+                    <article class="pricing-card">
+                        <div class="pricing-header">
+                            <h3>Phishing &amp; Scam Defense Workshop</h3>
+                            <p class="desc">Human firewall activation</p>
+                            <div class="price">KES 26,000<span> / session</span></div>
+                        </div>
+                        <ul class="pricing-features">
+                            <li class="included">Live 60-min team workshop</li>
+                            <li class="included">Real Kenyan WhatsApp & phishing scam examples</li>
+                            <li class="included">Suspicious message reporting flow</li>
+                            <li class="included">Follow-up reference guide</li>
+                            <li class="included">Password & MFA setup (optional)</li>
+                            <li class="not-included">Footprint audit</li>
+                        </ul>
+                        <a href="#contact" class="btn btn-outline" style="width:100%;">Get Started</a>
+                    </article>
+
+                    <div class="founding-banner">
+                        <h3><svg class="icon-svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" style="width:1.1em;height:1.1em;vertical-align:-2px;"><line x1="19" x2="5" y1="5" y2="19" /> <circle cx="6.5" cy="6.5" r="2.5" /> <circle cx="17.5" cy="17.5" r="2.5" /></svg> Founding Client Rate</h3>
+                        <p>I am offering a <strong>30% discount</strong> to my first 5 clients in exchange for a
+                            short written testimonial after the project. This helps me build a public track record.
+                        </p>
+                        <p class="mono" style="color: var(--text-muted); margin-bottom: 12px;">
+                            <span style="text-decoration: line-through;">KES 13,000</span> → <span
+                                style="color: var(--success); font-weight: bold;">KES 9,100</span> (Audit)<br>
+                            <span style="text-decoration: line-through;">KES 32,500</span> → <span
+                                style="color: var(--success); font-weight: bold;">KES 22,750</span> (Essential)
+                        </p>
+                        <p class="mono" style="color: var(--accent);">5 spots available — 0 claimed</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- FAQ MODIFIED -->
+        <section id="faq" aria-labelledby="faq-heading">
+            <div class="container">
+                <div class="section-header">
+                    <span class="section-label">FAQ</span>
+                    <h2 id="faq-heading">Common questions</h2>
+                </div>
+                <div class="faq-list">
+                    <div class="faq-item">
+                        <button class="faq-question" aria-expanded="false" onclick="toggleFaq(this)">
+                            <span>Do you need access to my servers or internal network?</span>
+                            <span class="faq-icon" aria-hidden="true"></span>
+                        </button>
+                        <div class="faq-answer">
+                            <div class="faq-answer-inner">
+                                <strong>No.</strong> I do not access your servers, routers, or internal network. All
+                                services are educational or based on public research. You watch me set up security
+                                tools on your own screen. Nothing is done without your consent.
+                            </div>
+                        </div>
+                    </div>
+                    <div class="faq-item">
+                        <button class="faq-question" aria-expanded="false" onclick="toggleFaq(this)">
+                            <span>I only have 2 staff members – is this too small?</span>
+                            <span class="faq-icon" aria-hidden="true"></span>
+                        </button>
+                        <div class="faq-answer">
+                            <div class="faq-answer-inner">
+                                No. Micro-businesses are common targets, precisely because attackers assume they
+                                have weak security.
+                            </div>
+                        </div>
+                    </div>
+                    <div class="faq-item">
+                        <button class="faq-question" aria-expanded="false" onclick="toggleFaq(this)">
+                            <span>Will I actually understand the audit report?</span>
+                            <span class="faq-icon" aria-hidden="true"></span>
+                        </button>
+                        <div class="faq-answer">
+                            <div class="faq-answer-inner">
+                                Yes. The report is written in plain language, with no jargon or technical scan
+                                output. It lists what is publicly visible about your business and what to do next.
+                                This is not a penetration test or a technical vulnerability assessment.
+                            </div>
+                        </div>
+                    </div>
+                    <div class="faq-item">
+                        <button class="faq-question" aria-expanded="false" onclick="toggleFaq(this)">
+                            <span>Do you only work with Nairobi businesses?</span>
+                            <span class="faq-icon" aria-hidden="true"></span>
+                        </button>
+                        <div class="faq-answer">
+                            <div class="faq-answer-inner">
+                                No. I work with businesses across Kenya. Training and audits are usually done
+                                remotely over Zoom or WhatsApp. On-site sessions outside Nairobi can be arranged;
+                                ask during your free consultation.
+                            </div>
+                        </div>
+                    </div>
+                    <div class="faq-item">
+                        <button class="faq-question" aria-expanded="false" onclick="toggleFaq(this)">
+                            <span>Do you have certifications?</span>
+                            <span class="faq-icon" aria-hidden="true"></span>
+                        </button>
+                        <div class="faq-answer">
+                            <div class="faq-answer-inner">
+                                Not yet. I am currently studying for a B.S. in Cybersecurity &amp; Digital Forensics
+                                and working toward my first industry certification (CompTIA Security+). What I offer
+                                does not require a certificate: training, MFA setup, and public footprint research.
+                            </div>
+                        </div>
+                    </div>
+                    <div class="faq-item">
+                        <button class="faq-question" aria-expanded="false" onclick="toggleFaq(this)">
+                            <span>How do we know you won't make things worse or leak our info?</span>
+                            <span class="faq-icon" aria-hidden="true"></span>
+                        </button>
+                        <div class="faq-answer">
+                            <div class="faq-answer-inner">
+                                You sign a simple <a href="terms.html">Terms &amp; Non-Disclosure Agreement</a>
+                                before we start. I never have remote access to your devices, which keeps that risk
+                                low.
+                            </div>
+                        </div>
+                    </div>
+                    <div class="faq-item">
+                        <button class="faq-question" aria-expanded="false" onclick="toggleFaq(this)">
+                            <span>What about the Kenya Data Protection Act 2019?</span>
+                            <span class="faq-icon" aria-hidden="true"></span>
+                        </button>
+                        <div class="faq-answer">
+                            <div class="faq-answer-inner">
+                                I follow good practice around your customers' data: limiting what is collected, and
+                                getting consent. For formal DPA compliance audits, you need a licensed consultant.
+                                I will tell you when that applies rather than pretend to be one.
+                            </div>
+                        </div>
+                    </div>
+                    <div class="faq-item">
+                        <button class="faq-question" aria-expanded="false" onclick="toggleFaq(this)">
+                            <span>What happens after submission?</span>
+                            <span class="faq-icon" aria-hidden="true"></span>
+                        </button>
+                        <div class="faq-answer">
+                            <div class="faq-answer-inner">
+                                I will contact you by WhatsApp or email within a few hours to schedule a free
+                                15-minute call. If you don't need my services, I will tell you.
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- CONTACT MODIFIED -->
+        <section id="contact" aria-labelledby="contact-heading">
+            <div class="container">
+                <div class="contact-grid">
+                    <div class="contact-info">
+                        <span class="section-label">Contact</span>
+                        <h2>Let's close your security gaps</h2>
+                        <p>Free 15-minute consultation. No pressure — if you don't need my services, I will tell
+                            you.</p>
+                        <ul class="contact-methods">
+                            <li>
+                                <div class="icon"><svg class="icon-svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M2.992 16.342a2 2 0 0 1 .094 1.167l-1.065 3.29a1 1 0 0 0 1.236 1.168l3.413-.998a2 2 0 0 1 1.099.092 10 10 0 1 0-4.777-4.719" /></svg></div>
+                                <div>
+                                    <p style="font-size: 0.875rem; color: var(--text-dim);">WhatsApp (fastest)</p>
+                                    <a href="https://wa.me/254752535505?text=Hi%20Mungai%2C%20I'd%20like%20a%20free%20cybersecurity%20consultation%20for%20my%20business."
+                                        target="_blank" rel="noopener">+254 752 535 505</a>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="icon"><svg class="icon-svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m22 7-8.991 5.727a2 2 0 0 1-2.009 0L2 7" /> <rect x="2" y="4" width="20" height="16" rx="2" /></svg></div>
+                                <div>
+                                    <p style="font-size: 0.875rem; color: var(--text-dim);">Email</p>
+                                    <a href="mailto:mungaikaringa5@gmail.com">mungaikaringa5@gmail.com</a>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="icon"><svg class="icon-svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 10c0 4.993-5.539 10.193-7.399 11.799a1 1 0 0 1-1.202 0C9.539 20.193 4 14.993 4 10a8 8 0 0 1 16 0" /> <circle cx="12" cy="10" r="3" /></svg></div>
+                                <div>
+                                    <p style="font-size: 0.875rem; color: var(--text-dim);">Location</p>
+                                    <span>Nairobi, Kenya — Remote &amp; on-site across Kenya</span>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <form class="contact-form" id="contact-form" action="https://formspree.io/f/xoeqlzrn" method="POST"
+                        aria-label="Contact form">
+                            <div class="form-success" id="form-success">Thanks — your message has been sent. I'll respond within 24 hours.</div>
+                            <div class="form-group">
+                                <label for="name">Your Name</label>
+                                <input type="text" id="name" name="name" required placeholder="John Kioko">
+                            </div>
+                            <div class="form-group">
+                                <label for="email">Business Email</label>
+                                <input type="email" id="email" name="email" required
+                                    placeholder="john@yourbusiness.co.ke">
+                            </div>
+                            <div class="form-group">
+                                <label for="business">Business Name &amp; Size</label>
+                                <input type="text" id="business" name="business" placeholder="Agtella Ltd, 4 employees">
+                            </div>
+                            <div class="form-group">
+                                <label for="service">Service Interested In</label>
+                                <select id="service" name="service" required>
+                                    <option value="" disabled selected>Select a service...</option>
+                                    <option value="footprint">Digital Footprint Audit (KES 13,000)</option>
+                                    <option value="essentials">Security Essentials Bundle (KES 32,500)</option>
+                                    <option value="training">Phishing &amp; Scam Workshop (KES 26,000)</option>
+                                    <option value="unsure">Not sure — let's talk</option>
+                                </select>
+                            </div>
+                            <div class="form-group">
+                                <label for="message">What’s your biggest security concern?</label>
+                                <textarea id="message" name="message"
+                                    placeholder="e.g., We got a fake invoice from WhatsApp yesterday..."></textarea>
+                            </div>
+                            <div class="consent-checkbox">
+                                <input type="checkbox" id="consent" name="consent" required>
+                                <label for="consent">I agree to the <a href="privacy.html" target="_blank">Privacy
+                                        Policy</a> and understand my data will only be used to respond.</label>
+                            </div>
+                            <!-- Honeypot -->
+                            <input type="text" name="_gotcha" style="display:none" tabindex="-1" autocomplete="off">
+                            <button type="submit" class="btn btn-primary" style="width:100%;">Request Free Consultation
+                                →</button>
+                            <p
+                                style="text-align: center; margin-top: 16px; font-size: 0.875rem; color: var(--text-dim);">
+                                I'll respond within 24 hours — no spam.</p>
+                        </form>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- FOOTER MODIFIED -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-brand">
+                    <a href="#" class="logo" style="font-size: 1.25rem;">
+                        <div class="logo-icon" style="width:32px;height:32px;"><svg class="icon-svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" style="width:16px;height:16px;"><path d="M20 13c0 5-3.5 7.5-7.66 8.95a1 1 0 0 1-.67-.01C7.5 20.5 4 18 4 13V6a1 1 0 0 1 1-1c2 0 4.5-1.2 6.24-2.72a1.17 1.17 0 0 1 1.52 0C14.51 3.81 17 5 19 5a1 1 0 0 1 1 1z" /></svg></div>
+                        Mungai<span style="color: var(--accent);">CyberShield</span>
+                    </a>
+                    <p>Honest cybersecurity hygiene for Kenyan businesses. No jargon, no enterprise overhead, no
+                        fake credentials.</p>
+                </div>
+                <div class="footer-links">
+                    <h4>Navigate</h4>
+                    <ul>
+                        <li><a href="#services">Services</a></li>
+                        <li><a href="#calculator">Risk Check</a></li>
+                        <li><a href="#threats">Kenya Threats</a></li>
+                        <li><a href="#pricing">Pricing</a></li>
+                    </ul>
+                </div>
+                <div class="footer-links">
+                    <h4>Legal</h4>
+                    <ul>
+                        <li><a href="privacy.html">Privacy Policy</a></li>
+                        <li><a href="terms.html">Terms of Service</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>© 2026 Mungai CyberShield. All rights reserved.</p>
+                <div class="social-links">
+                    <a href="mailto:mungaikaringa5@gmail.com" aria-label="Email"><svg class="icon-svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m22 7-8.991 5.727a2 2 0 0 1-2.009 0L2 7" /> <rect x="2" y="4" width="20" height="16" rx="2" /></svg></a>
+                    <a href="https://wa.me/254752535505" target="_blank" rel="noopener" aria-label="WhatsApp"><svg class="icon-svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M2.992 16.342a2 2 0 0 1 .094 1.167l-1.065 3.29a1 1 0 0 0 1.236 1.168l3.413-.998a2 2 0 0 1 1.099.092 10 10 0 1 0-4.777-4.719" /></svg></a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- JS MODIFIED -->
+    <script>
+        // Nav menu
+        const menuToggle = document.querySelector('.menu-toggle');
+        const navLinksItems = document.querySelectorAll('.nav-links a');
+        menuToggle.addEventListener('click', () => {
+            const isOpen = document.body.classList.toggle('nav-is-open');
+            menuToggle.setAttribute('aria-expanded', isOpen);
+        });
+        navLinksItems.forEach(link => {
+            link.addEventListener('click', () => {
+                document.body.classList.remove('nav-is-open');
+                menuToggle.setAttribute('aria-expanded', 'false');
+            });
+        });
+        window.addEventListener('resize', () => {
+            if (window.innerWidth > 768) {
+                document.body.classList.remove('nav-is-open');
+                menuToggle.setAttribute('aria-expanded', 'false');
+            }
+        });
+
+        // FAQ
+        function toggleFaq(button) {
+            const item = button.parentElement;
+            const isOpen = item.classList.toggle('open');
+            button.setAttribute('aria-expanded', isOpen);
+            document.querySelectorAll('.faq-item').forEach(other => {
+                if (other !== item && other.classList.contains('open')) {
+                    other.classList.remove('open');
+                    other.querySelector('.faq-question').setAttribute('aria-expanded', 'false');
+                }
+            });
+        }
+
+        // Risk calculator with JSON-LD feedback
+        function calculateRisk() {
+            const checkboxes = document.querySelectorAll('#calculator-form input[type="checkbox"]');
+            const checkedArr = Array.from(checkboxes);
+            const checked = checkedArr.filter(cb => cb.checked).length;
+            const total = checkboxes.length;
+            const secured = Math.round((checked / total) * 100);
+            const score = 100 - secured; // risk score: starts at 100% risk, falls as boxes are checked
+            const recs = [];
+
+            // Specific recommendations based on unchecked checkboxes
+            if (!q1.checked) recs.push('Set up a password manager (Bitwarden is free) and use it everywhere.');
+            if (!q2.checked) recs.push('Enable MFA (two-step) on every business email and bank account immediately.');
+            if (!q3.checked) recs.push('Book a phishing/scam training session for your team in the next 14 days.');
+            if (!q4.checked) recs.push('Back up data now. At minimum, automate an offsite backup.')
+            if (!q5.checked) recs.push('We should do a quick public footprint audit — I will show you what hackers see.');
+            if (!q6.checked) recs.push('Switch MFA to an authenticator app instead of SMS codes — this protects you even if your SIM is swapped.')
+
+            const resultsDiv = document.getElementById('calc-results');
+            const scoreDiv = document.getElementById('risk-score');
+            const labelDiv = document.getElementById('risk-label');
+            const descDiv = document.getElementById('risk-desc');
+            const recsDiv = document.getElementById('risk-recs');
+
+            resultsDiv.classList.add('active');
+            scoreDiv.classList.remove('low', 'medium', 'high');
+
+            if (score <= 20) {
+                scoreDiv.textContent = score + '%'; scoreDiv.classList.add('low');
+                labelDiv.textContent = 'LOW RISK — Well Protected';
+                descDiv.textContent = 'Nice! You have solid foundations in place. Resolving the few unchecked items will get you to 0% risk.';
+            } else if (score <= 50) {
+                scoreDiv.textContent = score + '%'; scoreDiv.classList.add('medium');
+                labelDiv.textContent = 'MEDIUM RISK — Some gaps';
+                descDiv.textContent = 'You are partially protected, but a hacker could still exploit a key missing step. Let’s patch that now.';
+            } else {
+                scoreDiv.textContent = score + '%'; scoreDiv.classList.add('high');
+                labelDiv.textContent = 'HIGH RISK — Act within a week';
+                descDiv.textContent = 'Your business is vulnerable to the most common attacks. The good news: these are all fixable in a single session.';
+            }
+
+            if (recs.length > 0) {
+                recsDiv.style.display = 'block';
+                recsDiv.innerHTML = '<strong>Recommended next steps:</strong><ul>' + recs.map(r => '<li>' + r + '</li>').join('') + '</ul>';
+            } else {
+                recsDiv.style.display = 'none';
+            }
+        }
+
+        // Contact form (Formspree AJAX submit)
+        const contactForm = document.getElementById('contact-form');
+        const contactSuccess = document.getElementById('form-success');
+        if (contactForm) {
+            contactForm.addEventListener('submit', async function (e) {
+                e.preventDefault();
+                const submitBtn = contactForm.querySelector('button[type="submit"]');
+                const originalLabel = submitBtn.textContent;
+                submitBtn.disabled = true;
+                submitBtn.textContent = 'Sending...';
+                try {
+                    const response = await fetch(contactForm.action, {
+                        method: 'POST',
+                        body: new FormData(contactForm),
+                        headers: { 'Accept': 'application/json' }
+                    });
+                    if (response.ok) {
+                        contactSuccess.classList.add('active');
+                        contactForm.reset();
+                        contactSuccess.scrollIntoView({ behavior: 'smooth', block: 'center' });
+                    } else {
+                        alert('Something went wrong sending your message. Please email mungaikaringa5@gmail.com directly.');
+                    }
+                } catch (err) {
+                    alert('Something went wrong sending your message. Please email mungaikaringa5@gmail.com directly.');
+                } finally {
+                    submitBtn.disabled = false;
+                    submitBtn.textContent = originalLabel;
+                }
+            });
+        }
+
+        // Smooth scroll
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                const targetId = this.getAttribute('href');
+                if (targetId === '#') return;
+                const target = document.querySelector(targetId);
+                if (target) { e.preventDefault(); target.scrollIntoView({ behavior: 'smooth' }); }
+            });
+        });
+    </script>
+</body>
+
+</html>
